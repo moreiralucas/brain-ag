@@ -1,0 +1,7 @@
+DEBUG=True
+POSTGRES_DB=yourdb
+POSTGRES_USER=youruser
+POSTGRES_PASSWORD=yourpassword
+POSTGRES_SERVICE=localhost
+POSTGRES_PORT=5432
+SECRET_KEY='%020z_ixc3%&kugd-lq1h!o)$$^$q^wdj6gy9#+=3h)b-0kbe)'

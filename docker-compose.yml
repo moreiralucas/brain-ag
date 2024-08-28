@@ -1,0 +1,9 @@
+services:
+  database:
+    image: postgres:14.0-alpine
+    container_name: brainag-db
+    env_file:
+      - .env
+    volumes:
+      - ./DB:/var/lib/postgresql/data/
+    network_mode: 'host'
